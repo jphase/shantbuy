@@ -1,24 +1,31 @@
 {
-  "name": "shantbuy",
-  "version": "1.0.0",
-  "description": "An API to store and deliver data about which consumer products support which corporations and companies",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:jphase/shantbuy.git"
-  },
-  "keywords": [
-    "shantbuy",
-    "product",
-    "api"
-  ],
-  "author": "Jeff Hays (jphase)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jphase/shantbuy/issues"
-  },
-  "homepage": "https://github.com/jphase/shantbuy"
+	"name": "shantbuy",
+	"version": "1.0.0",
+	"description": "An API to store and deliver data about which consumer products support which corporations and companies",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:jphase/shantbuy.git"
+	},
+	"keywords": [
+		"shantbuy",
+		"product",
+		"api"
+	],
+	"author": "Jeff Hays (jphase)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jphase/shantbuy/issues"
+	},
+	"homepage": "https://github.com/jphase/shantbuy",
+	"readmeFilename": "README.md",
+	"dependencies": {
+		"node-restify-validation": "*",
+		"node-restify-swagger": "*",
+		"underscore": "*",
+		"restify": "*"
+	}
 }
